@@ -41,4 +41,11 @@ On affiche ensuite le tableau "Badge" afin de connaitre les colonnes : `SELECT *
 
 Enfin, on peut obtenir le numéro de badge et trouver quel badge utilise Noel Laurent avec la requête `SELECT * FROM Badge WHERE person_id = '38' ;` 
 
+![Affiche le tableau "Badge" avec le person_id 38](5.png)
 
+L'un des badges est actif et l'autre est inactif, le badge qu'utilise Noel Laurent est celui qui est actif soit le badge n°165
+
+Flag :  
+```
+404CTF{165}
+```
