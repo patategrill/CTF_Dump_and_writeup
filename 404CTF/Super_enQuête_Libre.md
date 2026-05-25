@@ -35,8 +35,10 @@ Alors, on récupère le person_id de Noel Laurent avec `SELECT * FROM Person WHE
 
 Donc le person_id de Noel Laurent est 38  
 
-On affiche ensuite le tableau "Badge" afin de connaitre les colonnes : `SELECT * FROM Badge ;` 
+On affiche ensuite le tableau "Badge" afin de connaitre les colonnes : `SELECT * FROM Badge ;` et on obtient :  
 
-```
-SELECT * FROM Badge WHERE person_id = '38' ;
-```
+![Affiche le tableau "Badge"](4.png)
+
+Enfin, on peut obtenir le numéro de badge et trouver quel badge utilise Noel Laurent avec la requête `SELECT * FROM Badge WHERE person_id = '38' ;` 
+
+
