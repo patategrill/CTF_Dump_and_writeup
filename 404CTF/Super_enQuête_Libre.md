@@ -26,9 +26,11 @@ C'est alors qu'on apprend qu'il est possible de lister les tables disponibles av
 
 Sachant que l'on cherche l'id de Noel Laurent pour trouver quelle badge il utilise, on utilise la requête sql `SELECT * FROM Person ;` afin d'afficher tout le tableau "Person".
 
-```
-SELECT * FROM Person WHERE first_name = 'Laurent' ;
-```
+![Montre les 30 premieres ligne du tableau Person](2.png)
+
+On repère 7 colonnes : person_id | last_name | first_name | birth_date | email | status | class.  
+Alors, on récupère le person_id de Noel Laurent avec `SELECT * FROM Person WHERE first_name = 'Laurent' ;` et on obtient 
+
 ```
 SELECT * FROM Badge ;
 ```
