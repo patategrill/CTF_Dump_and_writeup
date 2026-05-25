@@ -24,9 +24,8 @@ On peut alors commencer par regarder l'aide avec la commande `.help`.
 C'est alors qu'on apprend qu'il est possible de lister les tables disponibles avec `.tables` et on obtient :  
 &emsp;AccessLog   Attendance   Badge   Building   Course   Person   Room   sqlite_sequence
 
-```
-SELECT * FROM Person ;
-```
+Sachant que l'on cherche l'id de Noel Laurent pour trouver quelle badge il utilise, on utilise la requête sql `SELECT * FROM Person ;` afin d'afficher tout le tableau "Person".
+
 ```
 SELECT * FROM Person WHERE first_name = 'Laurent' ;
 ```
