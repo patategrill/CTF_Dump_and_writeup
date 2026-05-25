@@ -10,10 +10,11 @@ Vous êtes un enquêteur mandaté par Télématique NordRouan, une école réput
 
 Pour mener votre enquête, vous obtenez l’accès à une base de données recensant l’ensemble des étudiants, professeurs et employés de l’école. Avant de vous confier l’affaire, l’école souhaite évaluer vos compétences. Votre première mission : déterminer quel badge Noel Laurent utilise actuellement. Format du flag : 404CTF{badge_noel_laurent} Exemple du flag : 404CTF{19}  
   
-Dans l'énoncé de ce challenge, il nous est également donner la commande pour se connecter :
-```
-nc spawn.404ctf.fr 10401
-```
+Dans l'énoncé de ce challenge, il nous est également donner la commande pour se connecter `nc spawn.404ctf.fr 10401`.
+![Image qui montre le résultat de la commande nc spawn.404ctf.fr 10401](1.png)  
+
+On peut alors commencer par regarder l'aide avec la commande `.help`.
+![Image qui montre le résultat de la commande .help](2.png)
 ```
 .tables
 ```
