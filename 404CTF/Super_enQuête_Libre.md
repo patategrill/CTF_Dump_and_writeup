@@ -29,11 +29,14 @@ Sachant que l'on cherche l'id de Noel Laurent pour trouver quelle badge il utili
 ![Montre les 30 premieres ligne du tableau Person](2.png)
 
 On repère 7 colonnes : person_id | last_name | first_name | birth_date | email | status | class.  
-Alors, on récupère le person_id de Noel Laurent avec `SELECT * FROM Person WHERE first_name = 'Laurent' ;` et on obtient 
+Alors, on récupère le person_id de Noel Laurent avec `SELECT * FROM Person WHERE first_name = 'Laurent' ;` et on obtient :  
 
-```
-SELECT * FROM Badge ;
-```
+![Montre le person_id des personnes ayant comme prénom "Laurent"](3.png)  
+
+Donc le person_id de Noel Laurent est 38  
+
+On affiche ensuite le tableau "Badge" afin de connaitre les colonnes : `SELECT * FROM Badge ;` 
+
 ```
 SELECT * FROM Badge WHERE person_id = '38' ;
 ```
