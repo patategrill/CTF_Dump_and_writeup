@@ -1,6 +1,12 @@
-## WriteUp Times Square catégorie MISC du FCSC2026 : 
+## WriteUp Times Square catégorie MISC du FCSC2026 :  
 
-voici l'énoncé : On vous donne accès à un terminal d'accès distant, trouvez vite son flag avant que le système ne se bloque. 
+**Nom :** Times Square
+**Catégorie :** Misc
+**Points :** 150
+**Niveau de difficulté :** Facile
+
+
+**voici l'énoncé :** On vous donne accès à un terminal d'accès distant, trouvez vite son flag avant que le système ne se bloque. 
 
 commande pour avoir accès au terminal : ssh -o StrictHostKeyChecking=no -p 2051 challenges.fcsc.fr 
 
