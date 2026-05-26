@@ -74,3 +74,8 @@ On obtient alors un terminal bugué mais le flag est là !:
   S much screen space, you seem serious about getting the flag! 
   Pass the following C condition to print the flag: X + Y + t = 42 && 300 && 200
 </pre>
+
+Flag :  
+```
+FCSC{2b1150bfd7ad93f72a184764bcae0f51521fcaf796b0997288}
+```
