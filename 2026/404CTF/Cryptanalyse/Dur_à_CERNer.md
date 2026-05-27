@@ -1,4 +1,4 @@
-# Write-up dur à CERNer
+# Write-up Dur à CERNer
 
 **- Nom :** Dur à CERNer  
 **- Catégorie :** Cryptanalyse   
