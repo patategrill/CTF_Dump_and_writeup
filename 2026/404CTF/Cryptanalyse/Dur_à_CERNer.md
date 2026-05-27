@@ -77,4 +77,16 @@ if __name__ == "__main__":
 En analysant le code on constate que dans la fonction accélérateur_de_particules, il y a les lignes `sha256.update(bytes.fromhex(particule_a))`, 
 `sha256.update(bytes.fromhex(particule_a))` ainsi que `return position_particule_a == position_particule_b` d'intéressantes.  
 
-Commençons par analyser `sha256.update(bytes.fromhex(particule_a))` et `sha256.update(bytes.fromhex(particule_b))`
+Commençons par analyser `sha256.update(bytes.fromhex(particule_a))` et `sha256.update(bytes.fromhex(particule_b))`,  
+
+on peut observer que ces deux lignes prennnent l'input de l'utilisateur pour le convertir en binaire puis en hexadécimal et enfin le convertis en sha256.  
+
+Ensuite, les lignes `return position_particule_a == position_particule_b` ainsi que 
+<pre>if particule_a == particule_b:
+        print("Une seule particule ne peut pas produire de collisions !")
+        exit(1)</pre>
+demande que les sha256 soit égaux en saississant 2 nombres différents, ce qui est théoriquement imopossible.  
+
+**Sauf que** le `bytes.fromhex()` change tout, en effet, en python avec cette fonction, le programme ne prends pas en compte les espaces !!  
+
+On peut alors rentrer deux valeurs héxadecimale tel que 852314 et 85 23 14, ce qui rend la condition possible car les input sont differents mais le sha256 est le meme car le `bytes.fromhex` ne prend pas en compte les espaces
