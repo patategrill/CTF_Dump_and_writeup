@@ -1,9 +1,9 @@
 ## WriteUp Times Square catégorie MISC du FCSC2026 :  
 
-**Nom :** Times Square
-**Catégorie :** Misc
-**Points :** 150
-**Niveau de difficulté :** Facile
+**Nom :** Times Square  
+**Catégorie :** Misc  
+**Points :** 150  
+**Niveau de difficulté :** Facile  
 
 
 **voici l'énoncé :** On vous donne accès à un terminal d'accès distant, trouvez vite son flag avant que le système ne se bloque. 
