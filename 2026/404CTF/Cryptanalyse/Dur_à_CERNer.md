@@ -91,3 +91,10 @@ demande que les sha256 soit égaux en saississant 2 nombres différents, ce qui 
 
 On peut alors rentrer deux valeurs héxadecimale tel que 852314 et 85 23 14, ce qui rend la condition possible car les input sont differents mais le sha256 est le meme car le `bytes.fromhex` ne prend pas en compte les espaces donc sha_input_a = sha_input_b  
 
+![flag](1.png)  
+
+Flag : 
+
+```
+404CTF{P4rt1cl35_g0_brrrrrrrrr!}
+```
